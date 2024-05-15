@@ -8,4 +8,3 @@
 ?>
 //前のやつ↑
 
-<?php require 'db-connect.php'; ?>
