@@ -7,6 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="header">
+        <img src="img/AGB.png">
+    </div>
 </body>
 </html>
