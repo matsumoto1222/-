@@ -17,7 +17,7 @@
 </head>
 <body>
     <p id="centerikon">Aso Shose</p>
-    <img id="teamrogo" src="img/teamrogo.jpg">
+    <img id="teamrogo" src="user/img/teamrogo.jpg">
     <form action="login-output.php" method="post">
         <div class="form">
             <label class="mail">
