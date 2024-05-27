@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/login.css">
+    <title>ログイン画面</title>
+    <style>
+        /* CSSで背景画像を設定 */
+        body {
+            background-image: url('./img/bg.png'); /* 画像のパスを正確に指定してください */
+            background-size: cover; /* 背景画像を画面にフィットさせる */
+            background-position: center; /* 画像を中央に配置 */
+            background-repeat: no-repeat; /* 画像の繰り返しを無しに設定 */
+            height: 100vh; /* ビューポートの高さにフィット */
+            margin: 0; /* 余白をゼロに */
+            position: relative; /* 子要素の絶対位置を制御するため */
+        }
+
+        /* 左上のアイコン画像のスタイル */
+        #agb-icon {
+            position: absolute;
+            top: 10px; /* 上からの距離 */
+            left: 10px; /* 左からの距離 */
+            width: 90px; /* アイコン画像の幅 */
+            height: auto; /* アスペクト比を保つために高さを自動調整 */
+        }
+    </style>
+</head>
+<body>
+    <!-- 左上にアイコン画像を追加 -->
+    <img id="agb-icon" src="./img/AGB.png" alt="AGB Icon">
+    
+    <p id="centerikon">ログイン</p>
+    <form action="login-output.php" method="post">
+        <div class="form">
+            <label class="mail">
+                <input type="text" name="mail" placeholder="例）kokusi@kokusi.budou"><br>
+                <a id="mailikon">
+                    <!-- メールアイコンのSVG -->
+                </a>
+            </label>
+            <label class="password">
+                <input type="password" name="password" placeholder="PassWord">
+                <a id="key">
+                    <!-- キーのSVG -->
+                </a>
+            </label>
+            <input type="submit" name="regist" value="Login">
+        </div>
+    </form>
+</body>
+</html>
