@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/login.css">
     <title>アカウント削除画面</title>
     <style>
         body {
@@ -14,8 +13,8 @@
             height: 100vh;
             margin: 0;
             display: flex;
-            justify-content: center;
-            align-items: flex-end; /* 画面下部に配置 */
+            justify-content: center; /* 水平方向の中央揃え */
+            align-items: center; /* 垂直方向の中央揃え */
             position: relative;
         }
 
@@ -35,7 +34,6 @@
             text-align: center;
             width: 100%;
             max-width: 400px;
-            margin-bottom: 20px; /* フォームと画面下部のスペース */
         }
 
         #centerikon {
@@ -48,7 +46,7 @@
 
         .form input[type="text"],
         .form input[type="password"] {
-            width: calc(25% - 22px);
+            width: calc(100% - 22px);
             padding: 10px;
             margin: 10px 0;
             border: 1px solid #ccc;
